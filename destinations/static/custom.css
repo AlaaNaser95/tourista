@@ -3,9 +3,7 @@ body , html{
 	background-repeat: no-repeat; 
   	background-size: cover;
 }
-.textcol{
-	color:white;
-}
+
 #holo{
 	text-align: center;
 	font-size: 50px;
@@ -17,12 +15,16 @@ body , html{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
+    background-color: rgb(160,160,160);
+    color: black !important;
+    opacity: 0.8;
 }
 
 /* Add rounded corners to the top left and the top right corner of the image */
 .imgi {
     border-radius: 4px 4px 0 0;
     position: center;
+    opacity: 1;
 }
 .containeri {
     padding: 2px 16px;

@@ -6,23 +6,25 @@
 <br/>
 <div class="cardi">
   <div class="container">
-<dev class="textcol">
-    <p><h1 id="holo">{{destination.name}}</h1></p>
-    <em><h3>Description:</h3></em>
-    <p id="texti">{{destination.description}}</p>
-    <em><h3>Activities:</h3></em>
-    <p id="texti">{{destination.activities}}</p>
-    <em><h3>Optimal Visiting Season:</h3></em>
-    <p id="texti">{{destination.optimal_visiting_season}}</p>
-</dev>
-    <p><img src="{{destination.pretty_picture.url}}" style="width:100%"> </p>
-    <a href="{% url 'destination-update' destination.id %}">
-        <button>Update</button>
-    </a>
-    <a href="{% url 'destination-delete' destination.id %}">
-        <button>Delete</button>
-    </a>
-  </div>
+    <dev class="textcol">
+        <p><h1 id="holo">{{destination.name}}</h1></p>
+        <em><h3>Description:</h3></em>
+        <p id="texti">{{destination.description}}</p>
+        <em><h3>Activities:</h3></em>
+        <p id="texti">{{destination.activities}}</p>
+        <em><h3>Optimal Visiting Season:</h3></em>
+        <p id="texti">{{destination.optimal_visiting_season}}</p>
+    </dev>
+        <p><img src="{{destination.pretty_picture.url}}" style="width:100%"> </p>
+        <a href="{% url 'destination-update' destination.id %}">
+            <button>Update</button>
+        </a>
+        <a href="{% url 'destination-delete' destination.id %}">
+            <button>Delete</button>
+            <br/>
+            <br/>
+        </a>
+    </div>
 </div>
 <br/>
 <br/>
