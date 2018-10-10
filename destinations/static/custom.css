@@ -33,3 +33,7 @@ body , html{
 #texti {
 	font-size: 20px;
 }
+
+.textcol {
+	color: white;
+}
